@@ -4,6 +4,7 @@ This is a working container version of Omada but still work in progress. There a
 
 ## Technical Debt!
 
+* There's no need to use `openjdk:8` image.
 * Need to test if `mongo.external = true` means that omada won't start a MongoDB instance so I don't have to customize `${OMADA_HOME}/properties/mongodb.properties`.
 * Need to add proper logic in case user is comfortable with using Omada's internal MongoDB instance.
 * Need to review all of the customized options to know if any of them should be left as it is.
